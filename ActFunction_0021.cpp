@@ -23,5 +23,12 @@ int kelilingPersegi(int a, int b)
 
 void output()
 {
-    
+    cout << "Luasnya : " << luasPersegi(panjang, lebar) << endl;
+}
+
+int main()
+{
+    input();
+    output();
+    cout << "Kelilingnya : " << kelilingPersegi(panjang, lebar);
 }
