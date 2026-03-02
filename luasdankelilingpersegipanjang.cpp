@@ -22,6 +22,6 @@ void output()
 }
 int main()
 {
-    input()
+    input();
     output();
 }
